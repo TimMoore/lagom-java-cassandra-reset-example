@@ -9,6 +9,8 @@
 
     <logger name="org.apache.cassandra" level="ERROR" />
 
+    <logger name="com.lightbend.lagom.internal.testkit.CassandraTestServer" level="DEBUG" />
+
     <root level="INFO">
         <appender-ref ref="STDOUT" />
     </root>
